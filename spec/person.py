@@ -40,7 +40,7 @@ class IsFromCountry(Spec):
 
 
 @dataclass
-class PersonApiSpec(Spec):
+class ContestEligibilitySpec(Spec):
     has_name_spec = HasNameSpec()
     has_age_spec = HasAgeSpec()
     age_less_than_spec = AgeIsLessThan(55)
